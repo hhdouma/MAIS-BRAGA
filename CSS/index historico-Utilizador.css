@@ -1,0 +1,26 @@
+
+.full-height {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .status-bar {
+    display: flex;
+    align-items: center;
+ }
+ 
+ .status-bar div {
+    flex-grow: 1;
+    height: 5px;
+    margin-right: 5px;
+ }
+ 
+ .status-incompleto {
+    background-color: red;
+ }
+ 
+ .status-completo {
+    background-color: green;
+ }
+ 

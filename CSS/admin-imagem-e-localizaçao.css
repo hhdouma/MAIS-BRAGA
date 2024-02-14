@@ -1,0 +1,16 @@
+.full-height {
+    min-height: 100vh;
+  }
+
+  .image-container {
+    margin-top: 60px; /* Height of the navbar */
+  }
+
+  .location {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .footer {
+    margin-top: 150px;
+  }

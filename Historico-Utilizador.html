@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Historico</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS\Index.css">
+  <link rel="stylesheet" href="CSS\index historico-Utilizador.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    @media (max-width: 768px) {
+      .footer {
+        margin-top: 48%; 
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-dark">
+
+  <div class="container-fluid p-0 full-height">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <!-- Brand/logo -->
+          <a class="navbar-brand" href="#">
+            <img src="+bragaa.png" alt="Logo" width="" height="50" class="d-inline-block align-text-top">
+          </a>
+
+          <!-- Hamburger icon for mobile -->
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onclick="toggleNavbar()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="toggleNavbar()">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" onclick="toggleNavbar()">Reporte</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Adicionando uma tabela no centro da página -->
+    <div class="container mt-5 flex-grow-1 min-vh-100">
+      <h1 class="text-center text-light mb-4">Histórico de Problemas</h1>
+      <table class="table table-dark mb-5">
+        <!-- Adicionando margem inferior de 30 pixels para a tabela -->
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Descrição do Problema</th>
+            <th scope="col">Data do Relato</th>
+            <th scope="col">Status</th> <!-- Nova coluna para o status -->
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Adicione as linhas da tabela com os dados relevantes -->
+          <tr>
+            <th scope="row">1</th>
+            <td>Problema na rua XYZ</td>
+            <td>2024-01-27</td>
+            <td>
+              <div class="status-bar">
+                <div class="status-incompleto"></div>
+                Incompleto
+              </div>
+            </td>
+            <!-- Status inicial, você pode modificar conforme necessário -->
+          </tr>
+          <!-- Adicione mais linhas conforme necessário -->
+        </tbody>
+      </table>
+
+      <!-- Adicionando texto abaixo da tabela -->
+      <p class="text-center text-light mt-5">O histórico de navegação é apresentado aqui.</p>
+      <!-- Adicionando margem superior de 30 pixels para a frase -->
+    </div>
+
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+      </ul>
+      <p>&copy;2024 Tiago Oliveira | All Rights Reserved</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </div>
+</body>
+
+</html>

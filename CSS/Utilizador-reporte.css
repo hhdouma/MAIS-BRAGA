@@ -1,0 +1,22 @@
+.full-height {
+   min-height: 100vh;
+ }
+
+ .image-container {
+  margin-top: 200px; /* Height of the navbar */
+  position: relative; /* Faz com que a .image-container seja o ponto de referência para o posicionamento absoluto */
+}
+
+.image-container img {
+  position: center;
+}
+
+
+ .location {
+   margin-top: 20px;
+   margin-bottom: 90px;
+ }
+
+ .footer {
+   margin-top: 290px;
+ }
